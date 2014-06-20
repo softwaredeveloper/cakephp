@@ -31,6 +31,7 @@ class EntityValidatorTest extends TestCase {
  * @return void
  */
 	public function setUp() {
+		$this->skipIf(true, 'Skipped for debugging');
 		parent::setUp();
 		$articles = TableRegistry::get('Articles');
 		$users = TableRegistry::get('Users');
