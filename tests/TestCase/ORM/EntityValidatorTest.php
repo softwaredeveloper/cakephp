@@ -167,7 +167,6 @@ class EntityValidatorTest extends TestCase {
  * @return void
  */
 	public function testOneAssociationsFail() {
-		$this->skipIf(true, 'Skipped for debugging');
 		$article = $this->getMock('\Cake\ORM\Entity', ['validate']);
 		$comment1 = $this->getMock('\Cake\ORM\Entity', ['validate']);
 		$comment2 = $this->getMock('\Cake\ORM\Entity', ['validate']);
@@ -226,7 +225,6 @@ class EntityValidatorTest extends TestCase {
  * @return void
  */
 	public function testOneDeepAssociationsAndCustomValidators() {
-		$this->skipIf(true, 'Skipped for debugging');
 		$comment = $this->getMock('\Cake\ORM\Entity', ['validate']);
 		$article = $this->getMock('\Cake\ORM\Entity', ['validate']);
 		$user = $this->getMock('\Cake\ORM\Entity', ['validate']);
@@ -284,7 +282,6 @@ class EntityValidatorTest extends TestCase {
  * @return void
  */
 	public function testManySuccess() {
-		$this->skipIf(true, 'Skipped for debugging');
 		$comment1 = $this->getMock('\Cake\ORM\Entity', ['validate']);
 		$comment2 = $this->getMock('\Cake\ORM\Entity', ['validate']);
 		$validator = $this->getMock('\Cake\Validation\Validator');
