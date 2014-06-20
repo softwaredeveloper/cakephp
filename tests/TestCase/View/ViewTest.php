@@ -248,6 +248,7 @@ class ViewTest extends TestCase {
  * @return void
  */
 	public function setUp() {
+		$this->skipIf(true, 'Skipped for debugging');
 		parent::setUp();
 
 		$request = new Request();
