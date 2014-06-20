@@ -31,7 +31,6 @@ class EntityValidatorTest extends TestCase {
  * @return void
  */
 	public function setUp() {
-		$this->skipIf(true, 'Skipped for debugging');
 		parent::setUp();
 		$articles = TableRegistry::get('Articles');
 		$users = TableRegistry::get('Users');
@@ -64,6 +63,7 @@ class EntityValidatorTest extends TestCase {
  * @return void
  */
 	public function testOneSuccess() {
+		$this->skipIf(true, 'Skipped for debugging');
 		$entity = $this->getMock('\Cake\ORM\Entity', ['validate']);
 		$validator = $this->getMock('\Cake\Validation\Validator');
 		$this->articles->validator('default', $validator);
