@@ -11,7 +11,7 @@ Some Handy Links
 
 [CakePHP](http://www.cakephp.org) - The rapid development PHP framework
 
-http://www.phpfreelanceprogrammer.com/projects.html
+[Freelance CakePHP developer](https://www.phpfreelanceprogrammer.com/projects.html)
 
 [CookBook](http://book.cakephp.org) - THE CakePHP user documentation; start learning here!
 
